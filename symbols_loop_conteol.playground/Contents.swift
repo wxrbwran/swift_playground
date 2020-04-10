@@ -1,3 +1,4 @@
+
 // 空合并运算符 ??
 var q:Int? = 8;
 var value:Int
@@ -40,3 +41,12 @@ for (key, value) in d1 {
 //var random = arc4random();
 
 // 水仙花数
+
+var count = 1
+for _ in 1...9 {
+    count += 2 * (count + 1)
+}
+print(count)
+
+//2!
+//5!
